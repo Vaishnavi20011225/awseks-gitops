@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: eks-registry
-          image: 187386332334.dkr.ecr.ap-south-1.amazonaws.com/eks_registry:${{ github.sha }}
+          image: swarajwohlig2107/sample:main-da0e673e587f98df528457d53adf39789df59414
           imagepPullPolicy: always
           ports:
             - containerPort: 8080
